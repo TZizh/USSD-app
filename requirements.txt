@@ -1,0 +1,7 @@
+flask
+Flask-SQLAlchemy
+flask-login
+flask
+flask-wtf
+wtforms
+Gunicorn
