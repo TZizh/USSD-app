@@ -1,4 +1,5 @@
     <?php
+    include ("php_fpm.php");
 // Reads the variables sent via POST
 $sessionId   = $_POST["sessionId"];  
 $serviceCode = $_POST["serviceCode"];  
