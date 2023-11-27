@@ -2,6 +2,9 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from os import path
 from flask_login import LoginManager
+os.environ['FLASK_ENV'] = 'development'
+import logging
+logging.basicConfig(filename ='app.log', level=logging.DEBUG, format='%(asctime)s- %(message)s')
 
 db = SQLAlchemy()
 DB_NAME = "database.db"
