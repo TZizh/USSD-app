@@ -6,3 +6,4 @@ flask-wtf
 wtforms
 Gunicorn
 qrcode
+flask-socketio
